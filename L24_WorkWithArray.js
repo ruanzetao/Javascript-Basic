@@ -1,14 +1,16 @@
-// MẢNG TRONG JAVASCRIPT
+// LÀM VIỆC VỚI ARRAY TRONG JAVASCRIPT
 
-// 1. Tạo Mảng
-// 2. Truy xuất Mảng
-// - Độ dài mảng
-// - Lấy phần tử theo Index
+//Keyword: Javascript array methods
+
+// 1. toString
+// 2. Join
+// 3. Pop
+// 4. Push
+// 5. Shift: xóa phần tử đầu mảng và trả về giá trị
+// 6. Unshift: thêm 1 hoặc nhiều phần tử vào đầu mảng và trả về độ dài
+// 7. Splice: xóa 1 hoặc nhiều phần tử từ và đến phần tử thứ/ Chèn
+// 8. Concat
+// 9. Slice:
 
 var languages = ["Javascript", "PHP", "Ruby"];
-
-console.log(languages);
-
-console.log(Array.isArray(languages));
-
-console.log(languages[0]);
+console.log(typeof languages.toString());

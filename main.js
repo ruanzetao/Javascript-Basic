@@ -1,1 +1,1 @@
-//alert('Hi Javascript basic!');
+alert("Hi Javascript basic!");
