@@ -1,1 +1,3 @@
-alert("Hi Javascript basic!");
+//Lesson:
+
+console.log("Something.");
