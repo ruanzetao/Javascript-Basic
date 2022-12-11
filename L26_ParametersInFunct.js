@@ -7,8 +7,13 @@
 //     - Đối tượng Arguments
 // - Giới thiệu vòng for
 
-function writeLog(message) {
-  console.log(message);
+function writeLog() {
+  var myString = "";
+  for (var param of arguments) {
+    myString += `${param} - `;
+    console.log(myString);
+  }
+  console.log(myString);
 }
 
-writeLog("Test message");
+writeLog("Log 1", "Log 2", "Log 3");
