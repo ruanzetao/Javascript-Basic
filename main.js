@@ -1,3 +1,3 @@
 //Lesson:
 
-console.log("Something.");
+console.log("");
