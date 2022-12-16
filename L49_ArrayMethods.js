@@ -22,3 +22,9 @@ var courses = [
     coin: 200,
   },
 ];
+
+var i = 0;
+var totalCoin = courses.reduce(function (accumulator, currentValue, currentIndex, originArray) {
+  i++;
+  console.log(i);
+}, 0);
