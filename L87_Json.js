@@ -17,4 +17,7 @@
 
 //1. Là một định dạng dữ liệu (thể hiện dạng chuỗi)
 //2. JS Object Notation
+
+//Stringify / Parse
+//Từ Js types sang Json / Từ Json sang Js types
 console.log("");
