@@ -1,3 +1,3 @@
-//Lesson:
+//Lesson: Let and Const
 
 console.log("");
