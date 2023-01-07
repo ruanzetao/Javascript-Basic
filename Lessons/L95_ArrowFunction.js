@@ -7,3 +7,5 @@ const sum = (a, b) => {
 };
 
 const sum1 = (a, b) => a + b;
+
+const logger = (log) => console.log("Message!");
